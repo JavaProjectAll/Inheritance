@@ -27,7 +27,7 @@ public class Circle extends Shape {
         return radius * 2 * Math.PI;
     }
 
-    //@Override
+    @Override
     public String toString() {
         return "A Circle with radius = "
                 + getRadius() + ", which is subclass of "
