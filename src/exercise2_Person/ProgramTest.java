@@ -4,11 +4,11 @@ public class ProgramTest {
     public static void main(String[] args) {
         Student[] students = {
                 new Student("Trung", "12 Trần Hưng Đạo"
-                        ,"java",2012, 200),
+                        , "java", 2012, 200),
                 new Student("Yến", "321 Phùng Hưng"
-                        ,"php",2013,150),
+                        , "php", 2013, 150),
                 new Student("Thảo", "32 Pháp Vân"
-                        ,"JS",2013,100)
+                        , "JS", 2013, 100)
         };
 
         Staff[] staff = {
