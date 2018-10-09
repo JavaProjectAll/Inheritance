@@ -3,10 +3,13 @@ package exercise3_Point;
 public class Point {
     private float x = 1.0f;
     private float y = 1.0f;
-    private float[] xy = new float[1];
+    private float[] xy = new float[10];
+
     public Point(float x, float y) {
         this.x = x;
         this.y = y;
+        this.xy[0] = x;
+        this.xy[1] = y;
     }
 
     public Point() {
@@ -30,8 +33,8 @@ public class Point {
     }
 
     public void setXY(float x, float y) {
-        xy[0] = this.x;
-        xy[1] = this.y;
+        xy[0] = x;
+        xy[1] = y;
     }
 
     public float[] getXY() {
