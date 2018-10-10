@@ -10,5 +10,9 @@ public class CircleTest {
         System.out.println("Diện tích xung quanh hình trụ = "+cylinder.getArea());
         System.out.println("Diện tích toàn phần hình trụ = "+cylinder.getAreaAll());
         System.out.println(cylinder.toString());
+
+        Circle c1 = new Cylinder(20,40,"white");
+        System.out.println(c1.getArea());
+        System.out.println(c1.toString());
     }
 }
